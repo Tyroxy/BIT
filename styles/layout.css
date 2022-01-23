@@ -2,18 +2,35 @@ body {
     width: 100%;
     height: 100%;
     padding: 0;
-    border-color: crimson;
-    border-width: 10px;
  
 }
 
 
 .main-nav{
-
+    width: 100px;
+    height: 100vh;
+    background-color: #F7F6FF;
+    position: fixed;
+    transition: max-width 0.4s ease-in 0s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-    
 
+.logo {
+    position: relative;
+    padding: 0px;
+    margin-top: 36px;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+nav > hr{
+    width: 62px;
+    margin-left: 18px;
+    margin-top: 32px;
+    background-color: #c4c4c4;
+    border: 2px solid #C4C4C4;
+}
+
 .line-long {
     
 }
@@ -22,36 +39,40 @@ body {
    
 }
 
+.main-nav:hover > logo {
+    margin-left: 69px;
+}
+
+.main-nav:hover {
+    max-width: 206px;
+    width: 206px;
+  }
+  .main-nav:hover > hr {
+    width: 128px;
+    max-width: 128px;
+    margin-left: 39px;
+  }
+  .main-nav:hover > a {
+    visibility: visible;
+    opacity: 1;
+  }
 
 .bottom {
-    /* width: 100%; */
-    /* float: left; */
-    
     position: absolute;
-    /* margin-bottom: 20%; */
     text-align: center;
     color: #02577a;
-    /* padding: 11px 0; */
+    padding: 6px;
+    left: calc(50% - 173px);
     font-size: 11px;
-    /* left: 50%; */
-    /* bottom: 0px; */
-    /* width: 346px; */
+    bottom: 10px;
+    width: 346px;
     
-    /* transform: translateX(-50%); */
     
     
 }
 
-.line-bt {
-    /* position: absolute; */
-    /* width: 346px; */
-    /* margin-bottom: 100px; */
-    /* border-top: 1px solid #02577a; */
-    position: absolute;
-    width: 346px;
-    height: 20px;
-    left: calc(50% - 173px);
-    top: 871px;
-    border: 3px solid #02577A;
+footer > hr{
+    padding: 0px;
+    border: 0.7px solid #02577A;
 }
 
