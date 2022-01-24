@@ -43,8 +43,8 @@ nav > hr {
 
 .link {
     position: relative;
-    float:left
-    margin-left: 56px;
+    float: right;
+    margin-right: 32px;
     color: #c4c4c4;
     /* visibility: hidden; */
     /* opacity: 0; */
