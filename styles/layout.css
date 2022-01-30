@@ -9,14 +9,14 @@ body {
     height: 100vh;
     background-color: #F7F6FF;
     position: fixed;
-    transition: max-width 0.4s ease-in 0s;
+    transition: width 0.7s ease-in 0s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo {
     position: relative;
     padding: 0px;
-    margin-top: 36px;
+    margin-top: 40px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -27,14 +27,8 @@ nav > hr {
     margin-top: 32px;
     background-color: #c4c4c4;
     border: 1px solid #C4C4C4;
+    transition: width 0.7s ease-in 0s;
 }
-
-/*.home-active {
-    margin-left: 26px;
-    padding: 16px;
-    background-color: #fff;
-    border-radius: 25px 0px 0px 25px;
-} */
 
 .icon-left {
     display: inline-block;
@@ -46,22 +40,25 @@ nav > hr {
     position: absolute;
     display: inline-block;
     color: #c4c4c4;
-    margin-left: 50px;
+    margin-left: 75px;
     top: 50%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.5s linear;
-    transition-delay: 0.2s;
     transform: translateY(-50%);
+    transition: opacity 0.8s linear;
+    transition-delay: 0.6s;
+   
 }
 
 .column {
     position: relative;
     margin: 34px 0 34px 11px;
-    padding: 16px;
+    padding: 0;
     background-color: transparent;
     border-radius: 25px 0px 0px 25px;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -69,14 +66,18 @@ nav > hr {
     margin-left: 69px;
 }
 
+.main-nav > .column > a:hover {
+    text-decoration: underline;
+  }
+
 .main-nav:hover {
     max-width: 206px;
     width: 206px;
   }
   .main-nav:hover > hr {
-    width: 128px;
-    max-width: 128px;
-    margin-left: 39px;
+    width: 148px;
+    max-width: 148px;
+    margin-left: 25px;
   }
   .main-nav:hover > .column > .link {
     visibility: visible;
@@ -105,23 +106,23 @@ footer > hr {
     background-color: #fff;
   }
 .main-nav > .column:first-of-type > .icon-left {
-    left: 28px;
+    left: 17px;
   }
 .main-nav > .column:first-of-type a {
     color: #02577a;
-    margin-left: 60px;
+    margin-left: 65px;
   }
 
 .main-nav > .column:last-child > .icon-left {
-    left: 5px;
+    left: 17px;
   }
   .main-nav > .column:last-child a {
-    margin-left: 35px;
+    margin-left: 75px;
   }
 
   .main-nav > .column > .icon-left {
     position: relative;
-    left: 15px;
+    left: 25px;
   }
 
 
