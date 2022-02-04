@@ -23,7 +23,7 @@ body {
 
 nav > hr {
     width: 62px;
-    margin-left: 18px;
+    margin: auto;
     margin-top: 32px;
     background-color: #c4c4c4;
     border: 1px solid #C4C4C4;
@@ -75,10 +75,9 @@ nav > hr {
     width: 206px;
   }
   .main-nav:hover > hr {
-    width: 148px;
-    max-width: 148px;
-    margin-left: 25px;
-  }
+    width: 128px;
+    max-width: 128px;
+   }
   .main-nav:hover > .column > .link {
     visibility: visible;
     opacity: 1;
@@ -124,7 +123,5 @@ footer > hr {
     position: relative;
     left: 25px;
   }
-
-
 
 
