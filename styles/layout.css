@@ -5,8 +5,10 @@ body {
  }
 
 .main-nav{
+    /* width: 100px;
+    height: 100vh; */
     width: 100px;
-    height: 100vh;
+    height: 100%;
     background-color: #F7F6FF;
     position: fixed;
     transition: width 0.7s ease-in 0s;

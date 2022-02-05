@@ -13,6 +13,7 @@
 
  
 .hi {
+    margin-left: 50px;
     width: 341px;
     height: 80px;
     font-size: 36px;
@@ -21,8 +22,8 @@
 
 .right-box {
     margin-top: 20px;
-    width: 550px;
-    height: 117px;
+    width: 520px;
+    height: 106px;
     background-color: #FFFFFF;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -31,29 +32,39 @@
 }
 
 .time {
+    margin-left: 100px;
+    margin-top: 10px;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 35px;
     color: blue;
   }
 
 .date {
+    margin-top: -10px;
     margin-left: 100px;
     font-size: 24px;
-    line-height: 29px;
-
+    line-height: 26px;
 }
+
+.mid{
+    margin-top: 20px;
+}
+
 
 .bg-img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: 390px;
+    object-fit: 110%;
     object-position:top;
 }
 
 .box{
+    padding: 25px;
     width: 800px;
-    margin: 0 calc(50% - 400px);
-    object-position: center;
+    margin-left: calc(50% - 400px);
+    /* object-position: center; */
+    /* object-position: bottom; */
+    /* margin-bottom: 10px; */
 }
 
 .text {
@@ -69,7 +80,6 @@
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-
 }
 
 
