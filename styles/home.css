@@ -9,8 +9,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%
-  }
-
+}
  
 .hi {
     margin-left: 50px;
@@ -37,7 +36,7 @@
     font-size: 32px;
     line-height: 35px;
     color: blue;
-  }
+}
 
 .date {
     margin-top: -10px;
@@ -46,26 +45,22 @@
     line-height: 26px;
 }
 
-.mid{
+.mid {
     margin-top: 20px;
 }
 
 
 .bg-img {
     width: 100%;
-    /* height: 390px; */
-       object-fit: 110%;
+    height: 390px;
+    object-fit: 110%;
     object-position:top;
 }
 
-.box{
-    /* padding: 25px; */
-margin-top: 1%;
+.box {
+    padding: 25px;
     width: 800px;
     margin-left: calc(50% - 400px);
-    /* object-position: center; */
-    /* object-position: bottom; */
-    /* margin-bottom: 10px; */
 }
 
 .text {
