@@ -12,7 +12,7 @@
 }
  
 .hi {
-    margin-left: 50px;
+    margin-left: 80px;
     width: 341px;
     height: 80px;
     font-size: 36px;
@@ -59,8 +59,9 @@
 
 .box {
     padding: 25px;
-    width: 800px;
-    margin-left: calc(50% - 400px);
+    width: 700px;
+    margin-left: calc(50% - 350px);
+    z-index: 1;
 }
 
 .text {
@@ -77,5 +78,238 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+
+
+@media(max-width:1200px){
+       
+    .hi {
+       margin-left: 100px;
+    }
+        
+    .box {
+        padding: 25px;
+        width: 600px;
+        margin-left: calc(50% - 280px);
+    }
+
+    .bottom {
+        left: calc(50% - 123px);
+        bottom: 10px;
+        width: 346px;
+    }
+}
+
+@media(max-width:1000px){
+   
+    .ontop {
+        height: 130px;
+    }
+    
+    .hi {
+        margin-top: 40px;
+        margin-left: 80px;
+        width: 241px;
+        height: 80px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    
+    .right-box {
+        margin-top: 20px;
+        width: 380px;
+        height: 96px;
+    }
+
+    .time {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 30px;
+        line-height: 31px;
+    }
+        
+    .date {
+        margin-top: -20px;
+        margin-left: 30px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+        
+    .mid {
+        margin-top: 10px;
+    }
+
+    .bg-img {
+        width: 100%;
+        height: 360px;
+        object-fit: 100%;
+    }
+        
+    .box {
+        padding: 25px;
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+        
+    .text {
+        margin: 0px;
+        size: 16px;
+        line-height: 19.5px;
+        padding: 25px;
+    }
+
+    .bottom {
+        left: calc(50% - 113px);
+        bottom: 10px;
+        width: 346px;
+      }
+}
+
+@media(max-width:800px){
+   
+    .ontop {
+        height: 100px;
+    }
+    
+    .hi {
+        margin-top: 25px;
+        margin-left: 100px;
+        width: 180px;
+        height: 80px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .right-box {
+        margin-top: 10px;
+        width: 240px;
+        height: 70px;
+    }
+
+    .time {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+        
+    .date {
+        margin-top: -10px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+        
+    .mid {
+        margin-top: 5px;
+    }
+
+    .bg-img {
+        width: 100%;
+        height: 360px;
+        object-fit: 100%;
+        }
+        
+    .box {
+        padding: 15px;
+        width: 360px;
+        margin-left: calc(50% - 180px);
+    }
+        
+    .text {
+        margin: 0px;
+        margin-left: -40px;
+        size: 14px;
+        line-height: 20px;
+        padding: 15px;
+    }
+
+    .bottom {
+        left: calc(50% - 133px);
+        bottom: 10px;
+        width: 346px;
+    }
+}
+
+
+@media(max-width:650px){
+   
+    .ontop {
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .hi {
+        margin-top: 10px;
+        margin-left: calc(50% - 70px);
+        width: 180px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .right-box {
+        margin-top: 15px;
+        width: 240px;
+        margin-left: calc(50% - 100px);
+        height: 70px;
+    }
+
+    .time {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+        
+    .date {
+        margin-top: -10px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+        
+    .mid {
+        margin-top: 5px;
+    }
+
+    .bg-img {
+        width: 100%;
+        height: 200px;
+        object-fit: 100%;
+    }
+        
+    .box {
+        padding: 15px;
+        width: 200px;
+        margin-left: calc(50% - 80px);
+    }
+        
+    .text {
+        margin: 0px;
+        margin-left: -40px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .bottom {
+        left: calc(50% - 53px);
+        bottom: 5px;
+        width: 226px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

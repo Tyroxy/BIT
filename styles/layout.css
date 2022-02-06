@@ -124,10 +124,11 @@ a:hover {
     text-align: center;
     color: #02577a;
     padding: 6px;
-    left: calc(50% - 173px);
+    left: calc(50% - 163px);
     font-size: 11px;
     bottom: 10px;
     width: 346px;
+    z-index: -1;
   }
 
 footer > hr {
@@ -143,6 +144,7 @@ footer > hr {
     margin-left: 25px;
   }
 
+ 
 
 
 
@@ -151,69 +153,4 @@ footer > hr {
 
 
 
-  @media(max-width:1200px){
-    .conteiner,
-    .content,
-    .work {
-        width: 1100px; 
-    }
-  }
-    .filosof {
-        width: 430px;
-        margin-left: 50px;
-        text-align: center;
-        justify-content: center;
-        line-height: 30px;
-        padding:25px 40px 40px 20px;
-        font-size: 18px;
-        top:85%;
-    }
-   
-@media(max-width:1000px){
-    .work {
-        height: 350px;
-        width: 1000px;
-    }
-    .content {
-        top:15%;
-        width: 400px;
-        flex-direction: column-reverse;
-        margin-left: 50px;
-    }
-    .filosof {
-        width: 430px;
-        margin-left: 50px;
-        text-align: center;
-        justify-content: center;
-        line-height: 30px;
-        padding:35px;
-        font-size: 18px;
-        top:80%;
-    }
-}
-@media(max-width:600px){
-    .content {
-        top:15%;
-        width: 400px;
-        margin-left: 50px;
-        max-height: 100vh;
-    }
-    .work{
-        height: 250px;
-        width: 600px;
-    }
-    .filosof {
-        width: 430px;
-        margin-left: 50px;
-        text-align: center;
-        justify-content: center;
-        line-height: 30px;
-        padding:35px;
-        font-size: 18px;
-        top:80%;
-    }
-    .fotter {
-        margin-left:45px;
-   
-    
-}
+ 
