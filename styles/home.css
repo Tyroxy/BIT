@@ -53,13 +53,14 @@
 
 .bg-img {
     width: 100%;
-    height: 390px;
-    object-fit: 110%;
+    /* height: 390px; */
+       object-fit: 110%;
     object-position:top;
 }
 
 .box{
-    padding: 25px;
+    /* padding: 25px; */
+margin-top: 1%;
     width: 800px;
     margin-left: calc(50% - 400px);
     /* object-position: center; */
