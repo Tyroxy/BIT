@@ -82,6 +82,7 @@
 
 }
 
+
 @media(max-width:1000px){
    
     .hi {
@@ -131,18 +132,11 @@
 
 @media(max-width:800px){
    
-    /* .ontop {
-        height: 100px;
-    } */
-
     .left-box {
         width: 270px;
     }
     
     .hi {
-        /* margin: 0 0 0 60px;
-        width: 180px;
-        height: 70px; */
         font-size: 22px;
         line-height: 23px;
         padding: 25px 10px 15px 10px;
@@ -151,8 +145,6 @@
     .right-box {
         margin-top: 10px;
         margin-right: 40px;
-        /* width: 270px;
-        height: 70px; */
     }
 
     .time {
@@ -200,7 +192,6 @@
 @media(max-width:650px){
    
     .ontop {
-        /* height: 180px; */
         display: flex;
         flex-direction: column-reverse;
         align-items:flex-start;
@@ -215,38 +206,20 @@
     .hi {
         margin-top: 10px;
         margin-left: 40px;
-        /* width: 180px; */
-        /* height: 50px; */
-        margin-bottom: 10px;
-        /* padding: 15px; */
-
-        /* width: 0px;
-        height: 0px;  */
         padding: 15px 0 10px 10px;
-
     }
     
     .right-box {
         margin: 20px 0 0 10px;
-        /* width: 250px; */
-        /* height: 70px; */
-
-
-        /* padding: 35px 125px 35px 125px; */
-
     }
 
     .time {
         margin-left: 40px;
         margin-top: 10px;
-        
     }
         
     .date {
-        margin-top: -10px;
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-bottom: 10px;
+        margin: -10px 40px 10px 40px;
         font-size: 14px;
         line-height: 18px;
     }
@@ -282,7 +255,6 @@
 @media(max-width:500px){
 
     .ontop {
-        /* height: 160px; */
         padding-top: 0px;
         margin-right: auto;
         margin-left: auto;
@@ -306,59 +278,29 @@
         margin-left: 0;
     }
 
-    /* .hi {
-        margin-left: 0px;
-    }
-     */
-    /* .right-box {
-        margin-left: 0px;
-       
-    } */
 }
 
-}
 
 @media(max-width:375px){
-   
         
     .hi {
-        margin-top: 10px;
-        margin-left: 0px;
-        /* width: 180px; */
-        /* height: 50px; */
-        margin-bottom: 10px;
-        /* padding: 15px; */
-
-        /* width: 0px;
-        height: 0px;  */
+        margin: 10px 0px 10px 0px;
         padding: 15px 0 10px 10px;
-
     }
     
     .right-box {
         margin-top: 10px;
         margin-left: 0;
-        /* width: 250px; */
-        /* height: 70px; */
-
-
-        /* padding: 35px 125px 35px 125px; */
-
     }
 
     .time {
         margin-left: 15px;
-
     }
         
     .date {
-
         margin-left: 15px;
         margin-right: 20px;
-
     }
-        
  
-
 }
 
